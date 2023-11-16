@@ -1,0 +1,67 @@
+.listView {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.shopCard {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 0.5em;
+}
+
+.productName {
+  display: flex;
+  width: 40%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2em;
+  justify-content: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.productColor {
+  font-family: sans-serif;
+  width: 20%;
+  justify-content: center;
+  display: flex;
+  color: grey;
+  top: 3em;
+}
+
+.productButtomBlock {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0.5em;
+}
+
+.productImg {
+  display: flex;
+  order: -1;
+  width: 10%;
+  border-radius: 0.5em;
+}
+
+.productPrice {
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.productAddBtn {
+  color: red;
+  border: 1px red solid;
+  padding: 0.3em 0.6em;
+  border-radius: 2em;
+}
+
+.productAddBtn:hover {
+  color: blue;
+  border: 1px blue solid;
+}
